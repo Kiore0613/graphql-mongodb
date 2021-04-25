@@ -8,8 +8,8 @@ export class LessonResolver {
     return {
       id: '12345asd',
       name: 'Algorithms',
-      startDate: (new Date().toISOString),
-      endDate: (new Date().toISOString)
+      startDate: (new Date().toISOString()),
+      endDate: (new Date().toISOString())
     }
   }
 }
